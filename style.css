@@ -1,0 +1,94 @@
+/*
+file: style.css 
+contributors: Austin Packer
+*/
+
+*
+{
+    margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background: #aaa;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 17px;
+	color: #eee;
+}
+
+#wrapper
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#top
+{
+	background: #555;
+	width: 1300px;
+	height: 50px;
+	padding: 10px;
+}
+
+
+#size
+{
+	background: #888;
+	height: 600px;
+	padding: 10px;
+}
+
+#paper
+{
+	background: #feefef;
+	height: 600px;
+}
+
+#canvas
+{
+	position: relative;
+	width: 1050px;
+	height: 600px;
+}
+
+#views
+{
+	background: #888;
+	height: 600px;
+	padding: 10px;
+}
+
+
+#doors
+{
+	background: #666;
+	width: 1300px;
+	height: 50px; /* bottom thickness*/
+	padding: 10px;
+}
+
+.button 
+{
+	border: 1px solid #000;
+	margin: 1px;
+	padding: 2px;
+	width: 80%;
+	text-align: center;
+	color: #eee;
+	background-color: #666;
+	text-decoration: none;
+}
+
+.button a:hover /* not working */
+{
+	background-color: #444;
+}
+
+a:hover /* temporary fix for above */
+{
+	background-color: #444;
+}
+
+

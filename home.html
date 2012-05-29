@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Language" content="English" />
+        <meta charset="UTF-8">
+        <meta name="keywords" content="Non, Linear, Dynamical, Systems, HTML5, JavaScript" />
+        <script type="text/javascript" src="main.js"></script>
+	    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+	    <title>Non Linear Dynamical Systems</title>
+    </head>
+
+<body>
+	
+	<table id="wrapper" border="0" width="1300">
+	
+		<tr id="top">
+			<td colspan="3" id="header">
+				<h1> &nbsp; &nbsp; Non Linear Dynamical Systems</h1>
+			</td>
+			<td id="topright">
+			</td>
+		</tr><!--end top-->
+	
+		<tr id="middle">
+			<td id="size" width="200">
+				<h3> x<sub>n+1</sub> = R (1 - x<sub>n</sub>) x<sub>n</sub></h3>
+				<br />
+				<form name="all">
+					<a class="button" id="main" href="#" onclick="main()"> &nbsp; &nbsp; Run &nbsp; &nbsp; </a>
+					<br /><br />
+					<p>
+                        R = 
+						<input type="text" id="R" size="12" min="3" max="4" maxlength="15" value="3.587" />
+						<br />
+						(3 < R < 4)
+					</p> 	
+                    <br />
+					<p>
+                        Initial Condition = 
+						<input type="text" id="initialState" size="2" maxlength="7" value="0.2" />
+					</p> 
+                    <br />
+					<p>
+                        Number of Iterations = 
+						<input type="text" id="iterations" size="2" min="2" maxlength="5" step="1" value="1000" />
+					</p> 
+                    <br />
+    				<p>
+                        radius = 
+						<input type="text" id="radius" size="2" min="2" maxlength="5" step="1" value="0.4" />
+					</p> 
+				</form>
+			</td><!--end size-->
+		
+			<td id="paper" width="1050">
+				<canvas id="myCanvas" width="1050" height="600">
+					<p>please use chrome</p>
+				</canvas>
+			</td>
+		
+			<td id="views" width="50">
+			</td>
+
+		</tr><!--end middle-->
+		
+		<tr id="bottom">
+			<td colspan="3" id="doors">
+			</td>
+		</tr><!--end bottom-->
+
+	</table>
+</body>
+</html>
+	
+	
+	
