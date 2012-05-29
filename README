@@ -1,0 +1,3 @@
+git add file.ext
+git commit -am "message"
+git push origin master
